@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="STYLE.CSS">
+    <title>Participantes do Evento</title>
+</head>
+<body>
+    <header>
+        <h1>LISTA DE PARTICIPANTES</h1>
+        <button onclick="window.history.back()">VOLTAR</button>
+    </header>
+    <main>
+        <div id="participantes-lista">
+            <!-- Participantes serão gerados aqui pelo JavaScript -->
+        </div>
+        <form id="form-participante">
+            <input type="text" id="nome" placeholder="NOME" required>
+            <input type="email" id="email" placeholder="EMAIL" required>
+            <button type="submit">ADICIONAR PARTICIPANTE</button>
+        </form>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
